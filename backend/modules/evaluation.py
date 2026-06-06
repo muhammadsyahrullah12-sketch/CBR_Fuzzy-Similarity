@@ -17,7 +17,6 @@ csv_path = Path(__file__).parent.parent / "data" / "loan_approval_dataset.csv"
 split_path = Path(__file__).parent.parent / "data" / "eval_split.json"
 eval_results_path = Path(__file__).parent.parent / "data" / "eval_results.json"
 
-k_values = [round(k * 0.1, 1) for k in range(1, 11)] # 0.1, 0.2, ..., 1.0
 # random_state = 42
 test_size = 0.2
 
@@ -68,7 +67,6 @@ def _retrieve_for_evaluation(
     new_case_raw: dict,
     train_cases: list[dict],
     norm_params: dict,
-    k: float,
     top_n: int = 5,
 ) -> list[dict]:
     """
@@ -83,7 +81,7 @@ def _retrieve_for_evaluation(
         if col in new_case_raw
     }
     processed_new = preprocess_single(case_input, norm_params)
-    fuzzy_new = fuzzify_case(processed_new, norm_params, k)
+    fuzzy_new = fuzzify_case(processed_new, norm_params)
 
     results = []
     for case in train_cases:
@@ -93,7 +91,7 @@ def _retrieve_for_evaluation(
             if col in case
         }
         processed_old = preprocess_single(case_input_old, norm_params)
-        fuzzy_old = fuzzify_case(processed_old, norm_params, k)
+        fuzzy_old = fuzzify_case(processed_old, norm_params)
 
         sim_result = case_similarity(
             fuzzy_new=fuzzy_new,
@@ -140,16 +138,15 @@ def _compute_metrics(y_true: list[str], y_pred: list[str]) -> dict:
         "total": total,
     }
 
-# Evaluasi satu nilai k
-def evaluate_k(
-    k: float,
+# Evaluasi model
+def evaluate_model(
     train_cases: list[dict],
     test_cases: list[dict],
     norm_params: dict,
     top_n: int = 5,
 ) -> dict:
     """
-    Evaluasi performa CBR untuk satu nilai k tertentu.
+    Evaluasi performa sistem CBR menggunakan data test
     """
     y_true = []
     y_pred = []
@@ -159,7 +156,7 @@ def evaluate_k(
         true_label = str(test_case.get(target, "")).strip()
 
         # Retrieve
-        top_cases = _retrieve_for_evaluation(test_case, train_cases, norm_params, k, top_n)
+        top_cases = _retrieve_for_evaluation(test_case, train_cases, norm_params, top_n)
 
         # Reuse
         reuse_result = reuse(top_cases)
@@ -178,81 +175,56 @@ def evaluate_k(
         })
 
         if (i + 1) % 100 == 0:
-            print(f" [k={k}] {i+1}/{len(test_cases)} selesai...")
+            print(f"[Eval] {i+1}/{len(test_cases)} selesai...")
 
     metrics = _compute_metrics(y_true, y_pred)
     return {
-        "k": k,
         "metrics": metrics,
         "details": details,
     }
 
-# Sensitivity analysis untuk semua nilai k
-
-def run_sensitivity_analysis(
-    force_split: bool = False,
-    top_n: int = 5,
+def run_evaluation(
+        force_split: bool = False,
+        top_n: int = 5,
 ) -> dict:
-    """
-    Jalankan evaluasi untuk semua nilai k (0.1 - 1.0)
-    """
-    # Load split data
     split_data = load_and_split_data(force=force_split)
+
     train_cases = split_data["train"]
     test_cases = split_data["test"]
 
-    print(f"Basis kasus untuk evaluasi: {len(train_cases)} kasus.")
-    print(f"Kasus uji untuk evaluasi: {len(test_cases)} kasus.")
-
-    # Hitung parameter normalisasi dari train_cases
     train_df = pd.DataFrame(train_cases)
+
     for col in numerical_features:
         if col in train_df.columns:
-            train_df[col] = pd.to_numeric(train_df[col], errors="coerce")
-    norm_params = compute_normalization_params(train_df)
+            train_df[col] = pd.to_numeric(
+                train_df[col],
+                errors="coerce"
+            )
 
-    # Evaluasi untuk setiap nilai k
-    all_results = []
-    for k in k_values:
-        print(f"\nEvaluasi untuk k={k}...")
-        result = evaluate_k(k, train_cases, test_cases, norm_params, top_n)
-        all_results.append(result)
-        print(f" Akurasi: {result['metrics']['accuracy']}% | "
-              f"F1-Score: {result['metrics']['f1_score']}%")
-        
-    summary = [
-        {
-            "k": r["k"],
-            "accuracy": r["metrics"]["accuracy"],
-            "precision": r["metrics"]["precision"],
-            "recall": r["metrics"]["recall"],
-            "f1_score": r["metrics"]["f1_score"],
-        }
-        for r in all_results
-    ]
+    norm_params = compute_normalization_params(
+        train_df
+    )
 
-    # K terbaik berdasarkan F1-Score
-    best = max(all_results, key=lambda x: x["metrics"]["f1_score"])
-    best_k = {"k": best["k"], "metrics": best["metrics"]}
+    result = evaluate_model(
+        train_cases,
+        test_cases,
+        norm_params,
+        top_n
+    )
 
-    # Simpan hasil evaluasi ke JSON
     output = {
         "train_size": len(train_cases),
         "test_size": len(test_cases),
         "top_n": top_n,
-        "k_values": k_values,
-        "summary": summary,
-        "best_k": best_k,
-        "details": {str(r["k"]): r["details"] for r in all_results},
+        "metrics": result["metrics"],
+        "details": result["details"],
     }
 
     with open(eval_results_path, "w") as f:
         json.dump(output, f, indent=2)
 
-    print(f"\nEvaluasi selesai! K terbaik : {best_k['k']} "
-          f"(Akurasi : {best_k['metrics']['accuracy']}%, "
-          f"F1-Score : {best_k['metrics']['f1_score']}%)")
-    print(f"Hasil evaluasi disimpan ke {eval_results_path}.")
+    print(f"[Eval] Hasil evaluasi disimpan ke {eval_results_path}")
+
     return output
 
 def get_evaluation_results() -> dict:
@@ -265,4 +237,4 @@ def get_evaluation_results() -> dict:
             return json.load(f)
     else:
         print("[Eval] Hasil evaluasi belum ditemukan. Menjalankan evaluasi...")
-        return run_sensitivity_analysis()
+        return run_evaluation()

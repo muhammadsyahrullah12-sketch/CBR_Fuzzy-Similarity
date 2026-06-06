@@ -4,9 +4,9 @@ from typing import Literal
  
 from backend.modules.retrieve import retrieve
 from backend.modules.reuse import reuse
-from backend.modules.database import add_to_revise_queue, count_cases
+from backend.modules.database import add_to_revise_queue, count_cases, get_cases_paginated
  
-router = APIRouter(prefix="/cbr", tags=["CBR - Retrieve & Reuse"])
+router = APIRouter(prefix="/cbr", tags=["CBR - Analisis Pinjaman"])
  
  
 # Schema input
@@ -21,7 +21,7 @@ class NewCaseInput(BaseModel):
     cibil_score           : float = Field(..., ge=300, le=900, description="Skor CIBIL (300-900)")
     residential_assets_value : float = Field(..., description="Nilai aset properti")
     commercial_assets_value  : float = Field(..., ge=0, description="Nilai aset komersial")
-    luxury_assets_value      : float = Field(..., gt=0, description="Nilai aset mewah")
+    luxury_assets_value      : float = Field(..., ge=0, description="Nilai aset mewah")
     bank_asset_value         : float = Field(..., ge=0, description="Nilai aset bank")
  
  
@@ -64,6 +64,8 @@ def retrieve_and_reuse(body: NewCaseInput):
         recommendation  = reuse_result["recommendation"],
         majority_vote   = reuse_result["majority_vote"],
         similarity_score= reuse_result["similarity_score"],
+        confidence      = reuse_result["confidence"],
+        note            = reuse_result["note"],
     )
  
     return {
@@ -80,3 +82,30 @@ def retrieve_and_reuse(body: NewCaseInput):
 def get_cases_count():
     """Kembalikan jumlah total kasus di basis kasus."""
     return {"total_cases": count_cases()}
+
+@router.get("/cases")
+def get_cases(
+    page  : int = 1,
+    limit : int = 50,
+    source: str = None,
+):
+    """
+    Ambil seluruh basis kasus dengan pagination.
+ 
+    Query params:
+      page   : halaman ke berapa (default 1)
+      limit  : jumlah baris per halaman (default 50, max 100)
+      source : filter by source — 'initial' atau 'retained' (opsional)
+ 
+    Contoh:
+      GET /cbr/cases              → halaman 1, semua source
+      GET /cbr/cases?page=2       → halaman 2
+      GET /cbr/cases?source=retained → hanya kasus hasil retain
+    """
+    if limit > 100:
+        limit = 100
+    if page < 1:
+        page = 1
+ 
+    result = get_cases_paginated(page=page, limit=limit, source=source)
+    return result

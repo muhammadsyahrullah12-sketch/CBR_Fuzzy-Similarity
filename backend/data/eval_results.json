@@ -1,0 +1,6850 @@
+{
+  "train_size": 3415,
+  "test_size": 854,
+  "top_n": 5,
+  "metrics": {
+    "accuracy": 86.53,
+    "precision": 87.96,
+    "recall": 90.77,
+    "f1_score": 89.34,
+    "tp": 482,
+    "tn": 257,
+    "fp": 66,
+    "fn": 49,
+    "total": 854
+  },
+  "details": [
+    {
+      "index": 0,
+      "loan_id": 2347,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.952682
+    },
+    {
+      "index": 1,
+      "loan_id": 1163,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976137
+    },
+    {
+      "index": 2,
+      "loan_id": 3062,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.97015
+    },
+    {
+      "index": 3,
+      "loan_id": 484,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.980352
+    },
+    {
+      "index": 4,
+      "loan_id": 2103,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.9382
+    },
+    {
+      "index": 5,
+      "loan_id": 1003,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.948132
+    },
+    {
+      "index": 6,
+      "loan_id": 793,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.949048
+    },
+    {
+      "index": 7,
+      "loan_id": 2871,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968614
+    },
+    {
+      "index": 8,
+      "loan_id": 2476,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.973387
+    },
+    {
+      "index": 9,
+      "loan_id": 3868,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982118
+    },
+    {
+      "index": 10,
+      "loan_id": 67,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954323
+    },
+    {
+      "index": 11,
+      "loan_id": 4021,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982702
+    },
+    {
+      "index": 12,
+      "loan_id": 3364,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980708
+    },
+    {
+      "index": 13,
+      "loan_id": 1699,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.975263
+    },
+    {
+      "index": 14,
+      "loan_id": 702,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.981046
+    },
+    {
+      "index": 15,
+      "loan_id": 3975,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988748
+    },
+    {
+      "index": 16,
+      "loan_id": 2352,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955031
+    },
+    {
+      "index": 17,
+      "loan_id": 656,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.946655
+    },
+    {
+      "index": 18,
+      "loan_id": 2566,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.96213
+    },
+    {
+      "index": 19,
+      "loan_id": 940,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.975177
+    },
+    {
+      "index": 20,
+      "loan_id": 1681,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963242
+    },
+    {
+      "index": 21,
+      "loan_id": 977,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957432
+    },
+    {
+      "index": 22,
+      "loan_id": 1191,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.952623
+    },
+    {
+      "index": 23,
+      "loan_id": 1898,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.987175
+    },
+    {
+      "index": 24,
+      "loan_id": 2747,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979787
+    },
+    {
+      "index": 25,
+      "loan_id": 2252,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963211
+    },
+    {
+      "index": 26,
+      "loan_id": 1409,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.975714
+    },
+    {
+      "index": 27,
+      "loan_id": 2657,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968175
+    },
+    {
+      "index": 28,
+      "loan_id": 3771,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95329
+    },
+    {
+      "index": 29,
+      "loan_id": 1616,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.991567
+    },
+    {
+      "index": 30,
+      "loan_id": 3721,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957449
+    },
+    {
+      "index": 31,
+      "loan_id": 2644,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.984237
+    },
+    {
+      "index": 32,
+      "loan_id": 319,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982612
+    },
+    {
+      "index": 33,
+      "loan_id": 2913,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.987882
+    },
+    {
+      "index": 34,
+      "loan_id": 1547,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968517
+    },
+    {
+      "index": 35,
+      "loan_id": 3325,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.976383
+    },
+    {
+      "index": 36,
+      "loan_id": 1801,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.944918
+    },
+    {
+      "index": 37,
+      "loan_id": 1387,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.952517
+    },
+    {
+      "index": 38,
+      "loan_id": 1144,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.982732
+    },
+    {
+      "index": 39,
+      "loan_id": 3881,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.944382
+    },
+    {
+      "index": 40,
+      "loan_id": 3691,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95383
+    },
+    {
+      "index": 41,
+      "loan_id": 2836,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981762
+    },
+    {
+      "index": 42,
+      "loan_id": 2941,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957344
+    },
+    {
+      "index": 43,
+      "loan_id": 1895,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.965355
+    },
+    {
+      "index": 44,
+      "loan_id": 178,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.983691
+    },
+    {
+      "index": 45,
+      "loan_id": 2111,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.983121
+    },
+    {
+      "index": 46,
+      "loan_id": 3606,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.94539
+    },
+    {
+      "index": 47,
+      "loan_id": 3560,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978657
+    },
+    {
+      "index": 48,
+      "loan_id": 1973,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.941615
+    },
+    {
+      "index": 49,
+      "loan_id": 3671,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.992389
+    },
+    {
+      "index": 50,
+      "loan_id": 1853,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.965027
+    },
+    {
+      "index": 51,
+      "loan_id": 582,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957114
+    },
+    {
+      "index": 52,
+      "loan_id": 3467,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.991493
+    },
+    {
+      "index": 53,
+      "loan_id": 2412,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972121
+    },
+    {
+      "index": 54,
+      "loan_id": 1019,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955316
+    },
+    {
+      "index": 55,
+      "loan_id": 1710,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954238
+    },
+    {
+      "index": 56,
+      "loan_id": 1184,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966457
+    },
+    {
+      "index": 57,
+      "loan_id": 3237,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98804
+    },
+    {
+      "index": 58,
+      "loan_id": 4049,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958444
+    },
+    {
+      "index": 59,
+      "loan_id": 1148,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.984768
+    },
+    {
+      "index": 60,
+      "loan_id": 3596,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.954514
+    },
+    {
+      "index": 61,
+      "loan_id": 2653,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.95782
+    },
+    {
+      "index": 62,
+      "loan_id": 3957,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982346
+    },
+    {
+      "index": 63,
+      "loan_id": 92,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.946142
+    },
+    {
+      "index": 64,
+      "loan_id": 1264,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956857
+    },
+    {
+      "index": 65,
+      "loan_id": 3962,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958712
+    },
+    {
+      "index": 66,
+      "loan_id": 3727,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.951683
+    },
+    {
+      "index": 67,
+      "loan_id": 496,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979932
+    },
+    {
+      "index": 68,
+      "loan_id": 2088,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967259
+    },
+    {
+      "index": 69,
+      "loan_id": 675,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.976336
+    },
+    {
+      "index": 70,
+      "loan_id": 1389,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.986784
+    },
+    {
+      "index": 71,
+      "loan_id": 2732,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986064
+    },
+    {
+      "index": 72,
+      "loan_id": 2411,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965976
+    },
+    {
+      "index": 73,
+      "loan_id": 746,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978227
+    },
+    {
+      "index": 74,
+      "loan_id": 2409,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.956874
+    },
+    {
+      "index": 75,
+      "loan_id": 4071,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.962851
+    },
+    {
+      "index": 76,
+      "loan_id": 709,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.959196
+    },
+    {
+      "index": 77,
+      "loan_id": 1626,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.95629
+    },
+    {
+      "index": 78,
+      "loan_id": 4040,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.979069
+    },
+    {
+      "index": 79,
+      "loan_id": 2444,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.955051
+    },
+    {
+      "index": 80,
+      "loan_id": 1976,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.956876
+    },
+    {
+      "index": 81,
+      "loan_id": 1864,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96118
+    },
+    {
+      "index": 82,
+      "loan_id": 665,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.954538
+    },
+    {
+      "index": 83,
+      "loan_id": 1885,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.952076
+    },
+    {
+      "index": 84,
+      "loan_id": 3565,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.960788
+    },
+    {
+      "index": 85,
+      "loan_id": 345,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982339
+    },
+    {
+      "index": 86,
+      "loan_id": 751,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.975838
+    },
+    {
+      "index": 87,
+      "loan_id": 3210,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.977341
+    },
+    {
+      "index": 88,
+      "loan_id": 128,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.970029
+    },
+    {
+      "index": 89,
+      "loan_id": 827,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986099
+    },
+    {
+      "index": 90,
+      "loan_id": 3693,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.955894
+    },
+    {
+      "index": 91,
+      "loan_id": 1427,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.985749
+    },
+    {
+      "index": 92,
+      "loan_id": 3961,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.962365
+    },
+    {
+      "index": 93,
+      "loan_id": 3487,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984761
+    },
+    {
+      "index": 94,
+      "loan_id": 1297,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971784
+    },
+    {
+      "index": 95,
+      "loan_id": 198,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.97562
+    },
+    {
+      "index": 96,
+      "loan_id": 41,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.974179
+    },
+    {
+      "index": 97,
+      "loan_id": 1256,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.993228
+    },
+    {
+      "index": 98,
+      "loan_id": 3714,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.947491
+    },
+    {
+      "index": 99,
+      "loan_id": 1425,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.944395
+    },
+    {
+      "index": 100,
+      "loan_id": 1384,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981843
+    },
+    {
+      "index": 101,
+      "loan_id": 2119,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.980684
+    },
+    {
+      "index": 102,
+      "loan_id": 1043,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.965133
+    },
+    {
+      "index": 103,
+      "loan_id": 1877,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966553
+    },
+    {
+      "index": 104,
+      "loan_id": 2565,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98894
+    },
+    {
+      "index": 105,
+      "loan_id": 3916,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953269
+    },
+    {
+      "index": 106,
+      "loan_id": 3220,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.951309
+    },
+    {
+      "index": 107,
+      "loan_id": 910,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.976952
+    },
+    {
+      "index": 108,
+      "loan_id": 3712,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963791
+    },
+    {
+      "index": 109,
+      "loan_id": 2555,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.967979
+    },
+    {
+      "index": 110,
+      "loan_id": 1002,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964667
+    },
+    {
+      "index": 111,
+      "loan_id": 2719,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.987159
+    },
+    {
+      "index": 112,
+      "loan_id": 69,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980507
+    },
+    {
+      "index": 113,
+      "loan_id": 2427,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.955263
+    },
+    {
+      "index": 114,
+      "loan_id": 2883,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961634
+    },
+    {
+      "index": 115,
+      "loan_id": 679,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966984
+    },
+    {
+      "index": 116,
+      "loan_id": 2022,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968265
+    },
+    {
+      "index": 117,
+      "loan_id": 2314,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.950236
+    },
+    {
+      "index": 118,
+      "loan_id": 1545,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967933
+    },
+    {
+      "index": 119,
+      "loan_id": 2554,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.958819
+    },
+    {
+      "index": 120,
+      "loan_id": 1294,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972787
+    },
+    {
+      "index": 121,
+      "loan_id": 4111,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978213
+    },
+    {
+      "index": 122,
+      "loan_id": 4053,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.98389
+    },
+    {
+      "index": 123,
+      "loan_id": 3304,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.983473
+    },
+    {
+      "index": 124,
+      "loan_id": 1736,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.974769
+    },
+    {
+      "index": 125,
+      "loan_id": 2389,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963865
+    },
+    {
+      "index": 126,
+      "loan_id": 1594,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982924
+    },
+    {
+      "index": 127,
+      "loan_id": 649,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957909
+    },
+    {
+      "index": 128,
+      "loan_id": 482,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972184
+    },
+    {
+      "index": 129,
+      "loan_id": 4116,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.97683
+    },
+    {
+      "index": 130,
+      "loan_id": 4119,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979511
+    },
+    {
+      "index": 131,
+      "loan_id": 818,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976167
+    },
+    {
+      "index": 132,
+      "loan_id": 1542,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.990523
+    },
+    {
+      "index": 133,
+      "loan_id": 1254,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984393
+    },
+    {
+      "index": 134,
+      "loan_id": 409,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96497
+    },
+    {
+      "index": 135,
+      "loan_id": 3950,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.930737
+    },
+    {
+      "index": 136,
+      "loan_id": 3359,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979355
+    },
+    {
+      "index": 137,
+      "loan_id": 2609,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954738
+    },
+    {
+      "index": 138,
+      "loan_id": 2938,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978918
+    },
+    {
+      "index": 139,
+      "loan_id": 1704,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.959259
+    },
+    {
+      "index": 140,
+      "loan_id": 2441,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956737
+    },
+    {
+      "index": 141,
+      "loan_id": 2215,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.989914
+    },
+    {
+      "index": 142,
+      "loan_id": 4055,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976373
+    },
+    {
+      "index": 143,
+      "loan_id": 810,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972874
+    },
+    {
+      "index": 144,
+      "loan_id": 2881,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.964307
+    },
+    {
+      "index": 145,
+      "loan_id": 2704,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.944018
+    },
+    {
+      "index": 146,
+      "loan_id": 1153,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.95051
+    },
+    {
+      "index": 147,
+      "loan_id": 2896,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.977902
+    },
+    {
+      "index": 148,
+      "loan_id": 2856,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.946934
+    },
+    {
+      "index": 149,
+      "loan_id": 3026,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957972
+    },
+    {
+      "index": 150,
+      "loan_id": 690,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966098
+    },
+    {
+      "index": 151,
+      "loan_id": 4083,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.985294
+    },
+    {
+      "index": 152,
+      "loan_id": 1915,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986571
+    },
+    {
+      "index": 153,
+      "loan_id": 1490,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980453
+    },
+    {
+      "index": 154,
+      "loan_id": 165,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.956417
+    },
+    {
+      "index": 155,
+      "loan_id": 1249,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955072
+    },
+    {
+      "index": 156,
+      "loan_id": 898,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978887
+    },
+    {
+      "index": 157,
+      "loan_id": 499,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.949249
+    },
+    {
+      "index": 158,
+      "loan_id": 4188,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.969358
+    },
+    {
+      "index": 159,
+      "loan_id": 7,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.950059
+    },
+    {
+      "index": 160,
+      "loan_id": 2342,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963161
+    },
+    {
+      "index": 161,
+      "loan_id": 1030,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.937787
+    },
+    {
+      "index": 162,
+      "loan_id": 1929,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.985064
+    },
+    {
+      "index": 163,
+      "loan_id": 3133,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.972116
+    },
+    {
+      "index": 164,
+      "loan_id": 2925,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.967618
+    },
+    {
+      "index": 165,
+      "loan_id": 2417,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.9912
+    },
+    {
+      "index": 166,
+      "loan_id": 1979,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965028
+    },
+    {
+      "index": 167,
+      "loan_id": 2563,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957331
+    },
+    {
+      "index": 168,
+      "loan_id": 247,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.957845
+    },
+    {
+      "index": 169,
+      "loan_id": 3313,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961433
+    },
+    {
+      "index": 170,
+      "loan_id": 1969,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984342
+    },
+    {
+      "index": 171,
+      "loan_id": 2783,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957846
+    },
+    {
+      "index": 172,
+      "loan_id": 3713,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966728
+    },
+    {
+      "index": 173,
+      "loan_id": 2333,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95943
+    },
+    {
+      "index": 174,
+      "loan_id": 891,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.958072
+    },
+    {
+      "index": 175,
+      "loan_id": 3765,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.946888
+    },
+    {
+      "index": 176,
+      "loan_id": 2865,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966164
+    },
+    {
+      "index": 177,
+      "loan_id": 1965,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.970923
+    },
+    {
+      "index": 178,
+      "loan_id": 1822,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.991903
+    },
+    {
+      "index": 179,
+      "loan_id": 2545,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.974598
+    },
+    {
+      "index": 180,
+      "loan_id": 1300,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.951626
+    },
+    {
+      "index": 181,
+      "loan_id": 3592,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.988713
+    },
+    {
+      "index": 182,
+      "loan_id": 981,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.983612
+    },
+    {
+      "index": 183,
+      "loan_id": 1272,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.98995
+    },
+    {
+      "index": 184,
+      "loan_id": 1549,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984502
+    },
+    {
+      "index": 185,
+      "loan_id": 1646,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958562
+    },
+    {
+      "index": 186,
+      "loan_id": 737,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963836
+    },
+    {
+      "index": 187,
+      "loan_id": 3897,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964966
+    },
+    {
+      "index": 188,
+      "loan_id": 2814,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963362
+    },
+    {
+      "index": 189,
+      "loan_id": 4013,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980999
+    },
+    {
+      "index": 190,
+      "loan_id": 987,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.987561
+    },
+    {
+      "index": 191,
+      "loan_id": 3578,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969294
+    },
+    {
+      "index": 192,
+      "loan_id": 4097,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960804
+    },
+    {
+      "index": 193,
+      "loan_id": 2775,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.94511
+    },
+    {
+      "index": 194,
+      "loan_id": 3512,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.943729
+    },
+    {
+      "index": 195,
+      "loan_id": 2484,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.959628
+    },
+    {
+      "index": 196,
+      "loan_id": 96,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980168
+    },
+    {
+      "index": 197,
+      "loan_id": 2954,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.967232
+    },
+    {
+      "index": 198,
+      "loan_id": 2597,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963582
+    },
+    {
+      "index": 199,
+      "loan_id": 3785,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.934169
+    },
+    {
+      "index": 200,
+      "loan_id": 3199,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.974136
+    },
+    {
+      "index": 201,
+      "loan_id": 219,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95237
+    },
+    {
+      "index": 202,
+      "loan_id": 4105,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96792
+    },
+    {
+      "index": 203,
+      "loan_id": 3865,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.992969
+    },
+    {
+      "index": 204,
+      "loan_id": 962,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981505
+    },
+    {
+      "index": 205,
+      "loan_id": 671,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.983268
+    },
+    {
+      "index": 206,
+      "loan_id": 3823,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986739
+    },
+    {
+      "index": 207,
+      "loan_id": 2192,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.973903
+    },
+    {
+      "index": 208,
+      "loan_id": 1672,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.974352
+    },
+    {
+      "index": 209,
+      "loan_id": 1564,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.993415
+    },
+    {
+      "index": 210,
+      "loan_id": 14,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963021
+    },
+    {
+      "index": 211,
+      "loan_id": 2724,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.94018
+    },
+    {
+      "index": 212,
+      "loan_id": 2051,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963722
+    },
+    {
+      "index": 213,
+      "loan_id": 4159,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.959116
+    },
+    {
+      "index": 214,
+      "loan_id": 453,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.988353
+    },
+    {
+      "index": 215,
+      "loan_id": 2279,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.965293
+    },
+    {
+      "index": 216,
+      "loan_id": 2502,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964659
+    },
+    {
+      "index": 217,
+      "loan_id": 3353,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957949
+    },
+    {
+      "index": 218,
+      "loan_id": 1850,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.953013
+    },
+    {
+      "index": 219,
+      "loan_id": 941,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.962385
+    },
+    {
+      "index": 220,
+      "loan_id": 3504,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.983709
+    },
+    {
+      "index": 221,
+      "loan_id": 1304,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.974662
+    },
+    {
+      "index": 222,
+      "loan_id": 4171,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961295
+    },
+    {
+      "index": 223,
+      "loan_id": 878,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954621
+    },
+    {
+      "index": 224,
+      "loan_id": 1335,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.991805
+    },
+    {
+      "index": 225,
+      "loan_id": 637,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.962847
+    },
+    {
+      "index": 226,
+      "loan_id": 244,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969756
+    },
+    {
+      "index": 227,
+      "loan_id": 1687,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.981734
+    },
+    {
+      "index": 228,
+      "loan_id": 805,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.987445
+    },
+    {
+      "index": 229,
+      "loan_id": 2976,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.965915
+    },
+    {
+      "index": 230,
+      "loan_id": 1325,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.989227
+    },
+    {
+      "index": 231,
+      "loan_id": 4129,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961698
+    },
+    {
+      "index": 232,
+      "loan_id": 1356,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980026
+    },
+    {
+      "index": 233,
+      "loan_id": 585,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.96461
+    },
+    {
+      "index": 234,
+      "loan_id": 2028,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963904
+    },
+    {
+      "index": 235,
+      "loan_id": 3840,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98027
+    },
+    {
+      "index": 236,
+      "loan_id": 2308,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965178
+    },
+    {
+      "index": 237,
+      "loan_id": 1456,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.974173
+    },
+    {
+      "index": 238,
+      "loan_id": 2307,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.943692
+    },
+    {
+      "index": 239,
+      "loan_id": 1719,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958408
+    },
+    {
+      "index": 240,
+      "loan_id": 4232,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972782
+    },
+    {
+      "index": 241,
+      "loan_id": 3701,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.975917
+    },
+    {
+      "index": 242,
+      "loan_id": 4164,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.956046
+    },
+    {
+      "index": 243,
+      "loan_id": 3930,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968509
+    },
+    {
+      "index": 244,
+      "loan_id": 3576,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955163
+    },
+    {
+      "index": 245,
+      "loan_id": 2261,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.945787
+    },
+    {
+      "index": 246,
+      "loan_id": 4140,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.951599
+    },
+    {
+      "index": 247,
+      "loan_id": 2296,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.959094
+    },
+    {
+      "index": 248,
+      "loan_id": 403,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.973176
+    },
+    {
+      "index": 249,
+      "loan_id": 2317,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957419
+    },
+    {
+      "index": 250,
+      "loan_id": 43,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.984876
+    },
+    {
+      "index": 251,
+      "loan_id": 507,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961022
+    },
+    {
+      "index": 252,
+      "loan_id": 2511,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.971076
+    },
+    {
+      "index": 253,
+      "loan_id": 3699,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.996594
+    },
+    {
+      "index": 254,
+      "loan_id": 2439,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964258
+    },
+    {
+      "index": 255,
+      "loan_id": 2928,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.952493
+    },
+    {
+      "index": 256,
+      "loan_id": 2660,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.95201
+    },
+    {
+      "index": 257,
+      "loan_id": 4104,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965151
+    },
+    {
+      "index": 258,
+      "loan_id": 1134,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.973929
+    },
+    {
+      "index": 259,
+      "loan_id": 1112,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98079
+    },
+    {
+      "index": 260,
+      "loan_id": 1787,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953852
+    },
+    {
+      "index": 261,
+      "loan_id": 2623,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.967491
+    },
+    {
+      "index": 262,
+      "loan_id": 3170,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972912
+    },
+    {
+      "index": 263,
+      "loan_id": 2300,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.977443
+    },
+    {
+      "index": 264,
+      "loan_id": 2445,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964209
+    },
+    {
+      "index": 265,
+      "loan_id": 2189,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96434
+    },
+    {
+      "index": 266,
+      "loan_id": 300,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966706
+    },
+    {
+      "index": 267,
+      "loan_id": 1619,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.960652
+    },
+    {
+      "index": 268,
+      "loan_id": 1851,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949722
+    },
+    {
+      "index": 269,
+      "loan_id": 1442,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.969769
+    },
+    {
+      "index": 270,
+      "loan_id": 1057,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.974167
+    },
+    {
+      "index": 271,
+      "loan_id": 1565,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978669
+    },
+    {
+      "index": 272,
+      "loan_id": 1824,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.949428
+    },
+    {
+      "index": 273,
+      "loan_id": 2892,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96795
+    },
+    {
+      "index": 274,
+      "loan_id": 1430,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954129
+    },
+    {
+      "index": 275,
+      "loan_id": 1862,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.972501
+    },
+    {
+      "index": 276,
+      "loan_id": 1706,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.950369
+    },
+    {
+      "index": 277,
+      "loan_id": 1052,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982757
+    },
+    {
+      "index": 278,
+      "loan_id": 1096,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.9839
+    },
+    {
+      "index": 279,
+      "loan_id": 3150,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.945822
+    },
+    {
+      "index": 280,
+      "loan_id": 1097,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.953708
+    },
+    {
+      "index": 281,
+      "loan_id": 1886,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.959887
+    },
+    {
+      "index": 282,
+      "loan_id": 1421,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981372
+    },
+    {
+      "index": 283,
+      "loan_id": 1543,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.956837
+    },
+    {
+      "index": 284,
+      "loan_id": 830,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.940973
+    },
+    {
+      "index": 285,
+      "loan_id": 2221,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960559
+    },
+    {
+      "index": 286,
+      "loan_id": 1712,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.952683
+    },
+    {
+      "index": 287,
+      "loan_id": 889,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.955193
+    },
+    {
+      "index": 288,
+      "loan_id": 986,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.98757
+    },
+    {
+      "index": 289,
+      "loan_id": 1399,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.919616
+    },
+    {
+      "index": 290,
+      "loan_id": 310,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.95819
+    },
+    {
+      "index": 291,
+      "loan_id": 2810,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.949899
+    },
+    {
+      "index": 292,
+      "loan_id": 1437,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978058
+    },
+    {
+      "index": 293,
+      "loan_id": 1186,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969259
+    },
+    {
+      "index": 294,
+      "loan_id": 2488,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.948689
+    },
+    {
+      "index": 295,
+      "loan_id": 4234,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95318
+    },
+    {
+      "index": 296,
+      "loan_id": 1145,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963968
+    },
+    {
+      "index": 297,
+      "loan_id": 3112,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957846
+    },
+    {
+      "index": 298,
+      "loan_id": 1246,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982671
+    },
+    {
+      "index": 299,
+      "loan_id": 3922,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.976691
+    },
+    {
+      "index": 300,
+      "loan_id": 2406,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982477
+    },
+    {
+      "index": 301,
+      "loan_id": 4006,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957497
+    },
+    {
+      "index": 302,
+      "loan_id": 3695,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979104
+    },
+    {
+      "index": 303,
+      "loan_id": 2885,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.973623
+    },
+    {
+      "index": 304,
+      "loan_id": 2113,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949328
+    },
+    {
+      "index": 305,
+      "loan_id": 1128,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.956953
+    },
+    {
+      "index": 306,
+      "loan_id": 3478,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.940007
+    },
+    {
+      "index": 307,
+      "loan_id": 105,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.955604
+    },
+    {
+      "index": 308,
+      "loan_id": 2157,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971855
+    },
+    {
+      "index": 309,
+      "loan_id": 3855,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969564
+    },
+    {
+      "index": 310,
+      "loan_id": 3369,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.944546
+    },
+    {
+      "index": 311,
+      "loan_id": 3479,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.949967
+    },
+    {
+      "index": 312,
+      "loan_id": 3593,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981806
+    },
+    {
+      "index": 313,
+      "loan_id": 1487,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.974163
+    },
+    {
+      "index": 314,
+      "loan_id": 2227,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988059
+    },
+    {
+      "index": 315,
+      "loan_id": 2466,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.978201
+    },
+    {
+      "index": 316,
+      "loan_id": 3032,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961065
+    },
+    {
+      "index": 317,
+      "loan_id": 2735,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949058
+    },
+    {
+      "index": 318,
+      "loan_id": 644,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961363
+    },
+    {
+      "index": 319,
+      "loan_id": 2912,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.95554
+    },
+    {
+      "index": 320,
+      "loan_id": 1217,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.983194
+    },
+    {
+      "index": 321,
+      "loan_id": 4192,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.952838
+    },
+    {
+      "index": 322,
+      "loan_id": 45,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954559
+    },
+    {
+      "index": 323,
+      "loan_id": 3967,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984403
+    },
+    {
+      "index": 324,
+      "loan_id": 442,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.933485
+    },
+    {
+      "index": 325,
+      "loan_id": 1359,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965704
+    },
+    {
+      "index": 326,
+      "loan_id": 847,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953346
+    },
+    {
+      "index": 327,
+      "loan_id": 323,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953698
+    },
+    {
+      "index": 328,
+      "loan_id": 4096,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.969014
+    },
+    {
+      "index": 329,
+      "loan_id": 2556,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.979398
+    },
+    {
+      "index": 330,
+      "loan_id": 2573,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965005
+    },
+    {
+      "index": 331,
+      "loan_id": 2196,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.958591
+    },
+    {
+      "index": 332,
+      "loan_id": 393,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986971
+    },
+    {
+      "index": 333,
+      "loan_id": 4166,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.964773
+    },
+    {
+      "index": 334,
+      "loan_id": 769,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98006
+    },
+    {
+      "index": 335,
+      "loan_id": 144,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.954785
+    },
+    {
+      "index": 336,
+      "loan_id": 1944,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.986801
+    },
+    {
+      "index": 337,
+      "loan_id": 2404,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.941891
+    },
+    {
+      "index": 338,
+      "loan_id": 3208,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.970787
+    },
+    {
+      "index": 339,
+      "loan_id": 12,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.967001
+    },
+    {
+      "index": 340,
+      "loan_id": 3739,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963729
+    },
+    {
+      "index": 341,
+      "loan_id": 1734,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.973531
+    },
+    {
+      "index": 342,
+      "loan_id": 3715,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.974234
+    },
+    {
+      "index": 343,
+      "loan_id": 1453,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961413
+    },
+    {
+      "index": 344,
+      "loan_id": 3371,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979121
+    },
+    {
+      "index": 345,
+      "loan_id": 1042,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971174
+    },
+    {
+      "index": 346,
+      "loan_id": 4191,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.975386
+    },
+    {
+      "index": 347,
+      "loan_id": 74,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964354
+    },
+    {
+      "index": 348,
+      "loan_id": 2761,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980329
+    },
+    {
+      "index": 349,
+      "loan_id": 645,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96044
+    },
+    {
+      "index": 350,
+      "loan_id": 1980,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.959745
+    },
+    {
+      "index": 351,
+      "loan_id": 1705,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.969437
+    },
+    {
+      "index": 352,
+      "loan_id": 1231,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.975474
+    },
+    {
+      "index": 353,
+      "loan_id": 2017,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961296
+    },
+    {
+      "index": 354,
+      "loan_id": 1013,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.997306
+    },
+    {
+      "index": 355,
+      "loan_id": 1575,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976428
+    },
+    {
+      "index": 356,
+      "loan_id": 633,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.965163
+    },
+    {
+      "index": 357,
+      "loan_id": 402,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.960101
+    },
+    {
+      "index": 358,
+      "loan_id": 3285,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961643
+    },
+    {
+      "index": 359,
+      "loan_id": 350,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958998
+    },
+    {
+      "index": 360,
+      "loan_id": 1451,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979649
+    },
+    {
+      "index": 361,
+      "loan_id": 356,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.94449
+    },
+    {
+      "index": 362,
+      "loan_id": 4142,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.965088
+    },
+    {
+      "index": 363,
+      "loan_id": 729,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966923
+    },
+    {
+      "index": 364,
+      "loan_id": 1741,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.989647
+    },
+    {
+      "index": 365,
+      "loan_id": 1157,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96642
+    },
+    {
+      "index": 366,
+      "loan_id": 1283,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.945809
+    },
+    {
+      "index": 367,
+      "loan_id": 706,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.990848
+    },
+    {
+      "index": 368,
+      "loan_id": 2470,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979146
+    },
+    {
+      "index": 369,
+      "loan_id": 2798,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.973781
+    },
+    {
+      "index": 370,
+      "loan_id": 680,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98806
+    },
+    {
+      "index": 371,
+      "loan_id": 525,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.952024
+    },
+    {
+      "index": 372,
+      "loan_id": 1871,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961137
+    },
+    {
+      "index": 373,
+      "loan_id": 1572,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980806
+    },
+    {
+      "index": 374,
+      "loan_id": 1502,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.970152
+    },
+    {
+      "index": 375,
+      "loan_id": 3131,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953328
+    },
+    {
+      "index": 376,
+      "loan_id": 642,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963702
+    },
+    {
+      "index": 377,
+      "loan_id": 2297,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949247
+    },
+    {
+      "index": 378,
+      "loan_id": 3445,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.983978
+    },
+    {
+      "index": 379,
+      "loan_id": 1472,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.95555
+    },
+    {
+      "index": 380,
+      "loan_id": 4059,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.953781
+    },
+    {
+      "index": 381,
+      "loan_id": 1846,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.964384
+    },
+    {
+      "index": 382,
+      "loan_id": 3425,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.9722
+    },
+    {
+      "index": 383,
+      "loan_id": 4241,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.990999
+    },
+    {
+      "index": 384,
+      "loan_id": 208,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955099
+    },
+    {
+      "index": 385,
+      "loan_id": 1697,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966977
+    },
+    {
+      "index": 386,
+      "loan_id": 3362,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967482
+    },
+    {
+      "index": 387,
+      "loan_id": 3613,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.977062
+    },
+    {
+      "index": 388,
+      "loan_id": 548,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.946137
+    },
+    {
+      "index": 389,
+      "loan_id": 619,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.977388
+    },
+    {
+      "index": 390,
+      "loan_id": 1939,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.983619
+    },
+    {
+      "index": 391,
+      "loan_id": 3002,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.969848
+    },
+    {
+      "index": 392,
+      "loan_id": 1155,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988507
+    },
+    {
+      "index": 393,
+      "loan_id": 2993,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.989441
+    },
+    {
+      "index": 394,
+      "loan_id": 2185,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.984088
+    },
+    {
+      "index": 395,
+      "loan_id": 411,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.953715
+    },
+    {
+      "index": 396,
+      "loan_id": 1627,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.975426
+    },
+    {
+      "index": 397,
+      "loan_id": 791,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.95958
+    },
+    {
+      "index": 398,
+      "loan_id": 1803,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965652
+    },
+    {
+      "index": 399,
+      "loan_id": 3566,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980532
+    },
+    {
+      "index": 400,
+      "loan_id": 3574,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.978811
+    },
+    {
+      "index": 401,
+      "loan_id": 2340,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.950366
+    },
+    {
+      "index": 402,
+      "loan_id": 553,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96821
+    },
+    {
+      "index": 403,
+      "loan_id": 795,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.977318
+    },
+    {
+      "index": 404,
+      "loan_id": 3324,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968988
+    },
+    {
+      "index": 405,
+      "loan_id": 4130,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.962893
+    },
+    {
+      "index": 406,
+      "loan_id": 4220,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971443
+    },
+    {
+      "index": 407,
+      "loan_id": 993,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963599
+    },
+    {
+      "index": 408,
+      "loan_id": 1354,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979302
+    },
+    {
+      "index": 409,
+      "loan_id": 636,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.944267
+    },
+    {
+      "index": 410,
+      "loan_id": 2664,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968784
+    },
+    {
+      "index": 411,
+      "loan_id": 1137,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.937098
+    },
+    {
+      "index": 412,
+      "loan_id": 3241,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986651
+    },
+    {
+      "index": 413,
+      "loan_id": 2465,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.987058
+    },
+    {
+      "index": 414,
+      "loan_id": 2918,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982212
+    },
+    {
+      "index": 415,
+      "loan_id": 2968,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.966579
+    },
+    {
+      "index": 416,
+      "loan_id": 1695,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.976909
+    },
+    {
+      "index": 417,
+      "loan_id": 1796,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967193
+    },
+    {
+      "index": 418,
+      "loan_id": 3385,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976893
+    },
+    {
+      "index": 419,
+      "loan_id": 2152,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961177
+    },
+    {
+      "index": 420,
+      "loan_id": 1168,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.942912
+    },
+    {
+      "index": 421,
+      "loan_id": 4018,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.975601
+    },
+    {
+      "index": 422,
+      "loan_id": 348,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957514
+    },
+    {
+      "index": 423,
+      "loan_id": 1340,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.940636
+    },
+    {
+      "index": 424,
+      "loan_id": 1711,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.979596
+    },
+    {
+      "index": 425,
+      "loan_id": 2100,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956313
+    },
+    {
+      "index": 426,
+      "loan_id": 3430,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.951025
+    },
+    {
+      "index": 427,
+      "loan_id": 1863,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981154
+    },
+    {
+      "index": 428,
+      "loan_id": 2905,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971498
+    },
+    {
+      "index": 429,
+      "loan_id": 652,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.979628
+    },
+    {
+      "index": 430,
+      "loan_id": 1653,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.978298
+    },
+    {
+      "index": 431,
+      "loan_id": 854,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.996448
+    },
+    {
+      "index": 432,
+      "loan_id": 605,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964494
+    },
+    {
+      "index": 433,
+      "loan_id": 3209,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.972546
+    },
+    {
+      "index": 434,
+      "loan_id": 744,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96114
+    },
+    {
+      "index": 435,
+      "loan_id": 1800,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.943529
+    },
+    {
+      "index": 436,
+      "loan_id": 3120,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.941747
+    },
+    {
+      "index": 437,
+      "loan_id": 1698,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.93881
+    },
+    {
+      "index": 438,
+      "loan_id": 1960,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.964767
+    },
+    {
+      "index": 439,
+      "loan_id": 270,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.975718
+    },
+    {
+      "index": 440,
+      "loan_id": 3057,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954703
+    },
+    {
+      "index": 441,
+      "loan_id": 1034,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.985942
+    },
+    {
+      "index": 442,
+      "loan_id": 3416,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.994027
+    },
+    {
+      "index": 443,
+      "loan_id": 2519,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961562
+    },
+    {
+      "index": 444,
+      "loan_id": 2415,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.968903
+    },
+    {
+      "index": 445,
+      "loan_id": 3428,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.9692
+    },
+    {
+      "index": 446,
+      "loan_id": 2578,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.965991
+    },
+    {
+      "index": 447,
+      "loan_id": 3755,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96994
+    },
+    {
+      "index": 448,
+      "loan_id": 711,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.955188
+    },
+    {
+      "index": 449,
+      "loan_id": 1377,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981877
+    },
+    {
+      "index": 450,
+      "loan_id": 387,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.935458
+    },
+    {
+      "index": 451,
+      "loan_id": 672,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.952036
+    },
+    {
+      "index": 452,
+      "loan_id": 2265,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.937642
+    },
+    {
+      "index": 453,
+      "loan_id": 3624,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961801
+    },
+    {
+      "index": 454,
+      "loan_id": 620,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954003
+    },
+    {
+      "index": 455,
+      "loan_id": 1342,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964529
+    },
+    {
+      "index": 456,
+      "loan_id": 833,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953253
+    },
+    {
+      "index": 457,
+      "loan_id": 1758,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.962001
+    },
+    {
+      "index": 458,
+      "loan_id": 796,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.94988
+    },
+    {
+      "index": 459,
+      "loan_id": 3525,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.975786
+    },
+    {
+      "index": 460,
+      "loan_id": 3795,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971676
+    },
+    {
+      "index": 461,
+      "loan_id": 2627,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.978662
+    },
+    {
+      "index": 462,
+      "loan_id": 1671,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.989899
+    },
+    {
+      "index": 463,
+      "loan_id": 237,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.985913
+    },
+    {
+      "index": 464,
+      "loan_id": 2759,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.979942
+    },
+    {
+      "index": 465,
+      "loan_id": 2799,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972969
+    },
+    {
+      "index": 466,
+      "loan_id": 2723,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984701
+    },
+    {
+      "index": 467,
+      "loan_id": 1382,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980755
+    },
+    {
+      "index": 468,
+      "loan_id": 2067,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954668
+    },
+    {
+      "index": 469,
+      "loan_id": 3871,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.952517
+    },
+    {
+      "index": 470,
+      "loan_id": 1970,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.969467
+    },
+    {
+      "index": 471,
+      "loan_id": 2438,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988506
+    },
+    {
+      "index": 472,
+      "loan_id": 550,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960141
+    },
+    {
+      "index": 473,
+      "loan_id": 2659,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964141
+    },
+    {
+      "index": 474,
+      "loan_id": 1836,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.961557
+    },
+    {
+      "index": 475,
+      "loan_id": 1023,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.943456
+    },
+    {
+      "index": 476,
+      "loan_id": 2989,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.945847
+    },
+    {
+      "index": 477,
+      "loan_id": 2639,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.973321
+    },
+    {
+      "index": 478,
+      "loan_id": 917,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949919
+    },
+    {
+      "index": 479,
+      "loan_id": 3251,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.958269
+    },
+    {
+      "index": 480,
+      "loan_id": 766,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.951658
+    },
+    {
+      "index": 481,
+      "loan_id": 920,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95125
+    },
+    {
+      "index": 482,
+      "loan_id": 2240,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.979311
+    },
+    {
+      "index": 483,
+      "loan_id": 3240,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.968608
+    },
+    {
+      "index": 484,
+      "loan_id": 1413,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960291
+    },
+    {
+      "index": 485,
+      "loan_id": 704,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.961105
+    },
+    {
+      "index": 486,
+      "loan_id": 3777,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.972303
+    },
+    {
+      "index": 487,
+      "loan_id": 2595,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976771
+    },
+    {
+      "index": 488,
+      "loan_id": 2844,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.98486
+    },
+    {
+      "index": 489,
+      "loan_id": 991,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967005
+    },
+    {
+      "index": 490,
+      "loan_id": 1268,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960749
+    },
+    {
+      "index": 491,
+      "loan_id": 3935,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.975856
+    },
+    {
+      "index": 492,
+      "loan_id": 1101,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969439
+    },
+    {
+      "index": 493,
+      "loan_id": 2024,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.958151
+    },
+    {
+      "index": 494,
+      "loan_id": 27,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.951012
+    },
+    {
+      "index": 495,
+      "loan_id": 723,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.950023
+    },
+    {
+      "index": 496,
+      "loan_id": 481,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.942679
+    },
+    {
+      "index": 497,
+      "loan_id": 1838,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98211
+    },
+    {
+      "index": 498,
+      "loan_id": 1868,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.947473
+    },
+    {
+      "index": 499,
+      "loan_id": 1431,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96563
+    },
+    {
+      "index": 500,
+      "loan_id": 2936,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976168
+    },
+    {
+      "index": 501,
+      "loan_id": 733,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.954138
+    },
+    {
+      "index": 502,
+      "loan_id": 2414,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.953542
+    },
+    {
+      "index": 503,
+      "loan_id": 3067,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.946909
+    },
+    {
+      "index": 504,
+      "loan_id": 196,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.949391
+    },
+    {
+      "index": 505,
+      "loan_id": 1541,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965831
+    },
+    {
+      "index": 506,
+      "loan_id": 1075,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.9663
+    },
+    {
+      "index": 507,
+      "loan_id": 914,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957921
+    },
+    {
+      "index": 508,
+      "loan_id": 3435,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96326
+    },
+    {
+      "index": 509,
+      "loan_id": 4012,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963805
+    },
+    {
+      "index": 510,
+      "loan_id": 1108,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976086
+    },
+    {
+      "index": 511,
+      "loan_id": 1497,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.979351
+    },
+    {
+      "index": 512,
+      "loan_id": 2225,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979943
+    },
+    {
+      "index": 513,
+      "loan_id": 1813,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.926747
+    },
+    {
+      "index": 514,
+      "loan_id": 1618,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.958237
+    },
+    {
+      "index": 515,
+      "loan_id": 950,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.984897
+    },
+    {
+      "index": 516,
+      "loan_id": 1394,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966398
+    },
+    {
+      "index": 517,
+      "loan_id": 4252,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964288
+    },
+    {
+      "index": 518,
+      "loan_id": 4138,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981347
+    },
+    {
+      "index": 519,
+      "loan_id": 2544,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984324
+    },
+    {
+      "index": 520,
+      "loan_id": 953,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953111
+    },
+    {
+      "index": 521,
+      "loan_id": 2211,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.977854
+    },
+    {
+      "index": 522,
+      "loan_id": 1065,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954377
+    },
+    {
+      "index": 523,
+      "loan_id": 3621,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.985504
+    },
+    {
+      "index": 524,
+      "loan_id": 3887,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.989581
+    },
+    {
+      "index": 525,
+      "loan_id": 1994,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961028
+    },
+    {
+      "index": 526,
+      "loan_id": 3567,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95622
+    },
+    {
+      "index": 527,
+      "loan_id": 1788,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.972258
+    },
+    {
+      "index": 528,
+      "loan_id": 2223,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.946344
+    },
+    {
+      "index": 529,
+      "loan_id": 2009,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.945732
+    },
+    {
+      "index": 530,
+      "loan_id": 1762,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.951102
+    },
+    {
+      "index": 531,
+      "loan_id": 2986,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.962376
+    },
+    {
+      "index": 532,
+      "loan_id": 3992,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.971495
+    },
+    {
+      "index": 533,
+      "loan_id": 1070,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.941656
+    },
+    {
+      "index": 534,
+      "loan_id": 1347,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955305
+    },
+    {
+      "index": 535,
+      "loan_id": 1666,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.974982
+    },
+    {
+      "index": 536,
+      "loan_id": 3482,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972113
+    },
+    {
+      "index": 537,
+      "loan_id": 1865,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.950653
+    },
+    {
+      "index": 538,
+      "loan_id": 1018,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.977929
+    },
+    {
+      "index": 539,
+      "loan_id": 563,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956807
+    },
+    {
+      "index": 540,
+      "loan_id": 3955,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972882
+    },
+    {
+      "index": 541,
+      "loan_id": 269,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.966298
+    },
+    {
+      "index": 542,
+      "loan_id": 3048,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978003
+    },
+    {
+      "index": 543,
+      "loan_id": 3348,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949922
+    },
+    {
+      "index": 544,
+      "loan_id": 3084,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.955964
+    },
+    {
+      "index": 545,
+      "loan_id": 1615,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966702
+    },
+    {
+      "index": 546,
+      "loan_id": 4187,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.959643
+    },
+    {
+      "index": 547,
+      "loan_id": 3791,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.934003
+    },
+    {
+      "index": 548,
+      "loan_id": 1284,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.972699
+    },
+    {
+      "index": 549,
+      "loan_id": 2850,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.987937
+    },
+    {
+      "index": 550,
+      "loan_id": 3265,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.986888
+    },
+    {
+      "index": 551,
+      "loan_id": 3934,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.941443
+    },
+    {
+      "index": 552,
+      "loan_id": 4162,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.988706
+    },
+    {
+      "index": 553,
+      "loan_id": 1777,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.959987
+    },
+    {
+      "index": 554,
+      "loan_id": 2839,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.956019
+    },
+    {
+      "index": 555,
+      "loan_id": 544,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.987562
+    },
+    {
+      "index": 556,
+      "loan_id": 1907,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.959574
+    },
+    {
+      "index": 557,
+      "loan_id": 59,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.955973
+    },
+    {
+      "index": 558,
+      "loan_id": 3224,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.972408
+    },
+    {
+      "index": 559,
+      "loan_id": 3085,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.951222
+    },
+    {
+      "index": 560,
+      "loan_id": 1644,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980201
+    },
+    {
+      "index": 561,
+      "loan_id": 2875,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982183
+    },
+    {
+      "index": 562,
+      "loan_id": 1820,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.950636
+    },
+    {
+      "index": 563,
+      "loan_id": 2945,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982736
+    },
+    {
+      "index": 564,
+      "loan_id": 68,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.983732
+    },
+    {
+      "index": 565,
+      "loan_id": 2997,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956335
+    },
+    {
+      "index": 566,
+      "loan_id": 2456,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.939433
+    },
+    {
+      "index": 567,
+      "loan_id": 1241,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979316
+    },
+    {
+      "index": 568,
+      "loan_id": 641,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960118
+    },
+    {
+      "index": 569,
+      "loan_id": 184,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958674
+    },
+    {
+      "index": 570,
+      "loan_id": 1208,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.997146
+    },
+    {
+      "index": 571,
+      "loan_id": 2128,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981194
+    },
+    {
+      "index": 572,
+      "loan_id": 1076,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967784
+    },
+    {
+      "index": 573,
+      "loan_id": 1717,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.983139
+    },
+    {
+      "index": 574,
+      "loan_id": 3271,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980113
+    },
+    {
+      "index": 575,
+      "loan_id": 2701,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.966796
+    },
+    {
+      "index": 576,
+      "loan_id": 2137,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957236
+    },
+    {
+      "index": 577,
+      "loan_id": 1221,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.941859
+    },
+    {
+      "index": 578,
+      "loan_id": 2395,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966172
+    },
+    {
+      "index": 579,
+      "loan_id": 2213,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.992658
+    },
+    {
+      "index": 580,
+      "loan_id": 3805,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.9544
+    },
+    {
+      "index": 581,
+      "loan_id": 1859,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982009
+    },
+    {
+      "index": 582,
+      "loan_id": 4202,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980789
+    },
+    {
+      "index": 583,
+      "loan_id": 3954,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96359
+    },
+    {
+      "index": 584,
+      "loan_id": 435,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965279
+    },
+    {
+      "index": 585,
+      "loan_id": 4073,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966869
+    },
+    {
+      "index": 586,
+      "loan_id": 1601,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.975819
+    },
+    {
+      "index": 587,
+      "loan_id": 1580,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.984855
+    },
+    {
+      "index": 588,
+      "loan_id": 2188,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.953231
+    },
+    {
+      "index": 589,
+      "loan_id": 3003,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96864
+    },
+    {
+      "index": 590,
+      "loan_id": 3932,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968018
+    },
+    {
+      "index": 591,
+      "loan_id": 538,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.967566
+    },
+    {
+      "index": 592,
+      "loan_id": 3628,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.948244
+    },
+    {
+      "index": 593,
+      "loan_id": 381,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953192
+    },
+    {
+      "index": 594,
+      "loan_id": 1811,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986388
+    },
+    {
+      "index": 595,
+      "loan_id": 4222,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980889
+    },
+    {
+      "index": 596,
+      "loan_id": 341,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.941599
+    },
+    {
+      "index": 597,
+      "loan_id": 2401,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.959666
+    },
+    {
+      "index": 598,
+      "loan_id": 378,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956725
+    },
+    {
+      "index": 599,
+      "loan_id": 295,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.967694
+    },
+    {
+      "index": 600,
+      "loan_id": 2677,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.959821
+    },
+    {
+      "index": 601,
+      "loan_id": 2107,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.940461
+    },
+    {
+      "index": 602,
+      "loan_id": 313,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976507
+    },
+    {
+      "index": 603,
+      "loan_id": 560,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.977544
+    },
+    {
+      "index": 604,
+      "loan_id": 1176,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957715
+    },
+    {
+      "index": 605,
+      "loan_id": 2049,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.947212
+    },
+    {
+      "index": 606,
+      "loan_id": 3971,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.962231
+    },
+    {
+      "index": 607,
+      "loan_id": 2642,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963544
+    },
+    {
+      "index": 608,
+      "loan_id": 225,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.990085
+    },
+    {
+      "index": 609,
+      "loan_id": 4078,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979341
+    },
+    {
+      "index": 610,
+      "loan_id": 2471,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961053
+    },
+    {
+      "index": 611,
+      "loan_id": 2973,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96951
+    },
+    {
+      "index": 612,
+      "loan_id": 1639,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.969802
+    },
+    {
+      "index": 613,
+      "loan_id": 2337,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966531
+    },
+    {
+      "index": 614,
+      "loan_id": 1599,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.974936
+    },
+    {
+      "index": 615,
+      "loan_id": 3171,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.937903
+    },
+    {
+      "index": 616,
+      "loan_id": 2887,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.976309
+    },
+    {
+      "index": 617,
+      "loan_id": 2901,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.950392
+    },
+    {
+      "index": 618,
+      "loan_id": 1261,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984603
+    },
+    {
+      "index": 619,
+      "loan_id": 1226,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.951225
+    },
+    {
+      "index": 620,
+      "loan_id": 3182,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.943223
+    },
+    {
+      "index": 621,
+      "loan_id": 4198,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.948511
+    },
+    {
+      "index": 622,
+      "loan_id": 674,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.962595
+    },
+    {
+      "index": 623,
+      "loan_id": 2878,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956004
+    },
+    {
+      "index": 624,
+      "loan_id": 1595,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.950856
+    },
+    {
+      "index": 625,
+      "loan_id": 4183,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982624
+    },
+    {
+      "index": 626,
+      "loan_id": 2478,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.9643
+    },
+    {
+      "index": 627,
+      "loan_id": 4259,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.939295
+    },
+    {
+      "index": 628,
+      "loan_id": 1676,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964284
+    },
+    {
+      "index": 629,
+      "loan_id": 3552,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95453
+    },
+    {
+      "index": 630,
+      "loan_id": 1634,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.945162
+    },
+    {
+      "index": 631,
+      "loan_id": 2703,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.952705
+    },
+    {
+      "index": 632,
+      "loan_id": 260,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.985555
+    },
+    {
+      "index": 633,
+      "loan_id": 2079,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.987123
+    },
+    {
+      "index": 634,
+      "loan_id": 2737,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967261
+    },
+    {
+      "index": 635,
+      "loan_id": 370,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988029
+    },
+    {
+      "index": 636,
+      "loan_id": 489,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980421
+    },
+    {
+      "index": 637,
+      "loan_id": 3180,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.966715
+    },
+    {
+      "index": 638,
+      "loan_id": 164,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978685
+    },
+    {
+      "index": 639,
+      "loan_id": 3388,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.994472
+    },
+    {
+      "index": 640,
+      "loan_id": 2661,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.991939
+    },
+    {
+      "index": 641,
+      "loan_id": 3913,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.965118
+    },
+    {
+      "index": 642,
+      "loan_id": 3853,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955167
+    },
+    {
+      "index": 643,
+      "loan_id": 3079,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958292
+    },
+    {
+      "index": 644,
+      "loan_id": 813,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953373
+    },
+    {
+      "index": 645,
+      "loan_id": 1713,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984657
+    },
+    {
+      "index": 646,
+      "loan_id": 509,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.959732
+    },
+    {
+      "index": 647,
+      "loan_id": 339,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960172
+    },
+    {
+      "index": 648,
+      "loan_id": 2351,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.976125
+    },
+    {
+      "index": 649,
+      "loan_id": 1345,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.943402
+    },
+    {
+      "index": 650,
+      "loan_id": 2483,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.97077
+    },
+    {
+      "index": 651,
+      "loan_id": 2205,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958038
+    },
+    {
+      "index": 652,
+      "loan_id": 407,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.947312
+    },
+    {
+      "index": 653,
+      "loan_id": 3826,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979816
+    },
+    {
+      "index": 654,
+      "loan_id": 3301,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986191
+    },
+    {
+      "index": 655,
+      "loan_id": 1631,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.971187
+    },
+    {
+      "index": 656,
+      "loan_id": 324,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961182
+    },
+    {
+      "index": 657,
+      "loan_id": 1637,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968629
+    },
+    {
+      "index": 658,
+      "loan_id": 4180,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.980908
+    },
+    {
+      "index": 659,
+      "loan_id": 3059,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956449
+    },
+    {
+      "index": 660,
+      "loan_id": 2200,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.943603
+    },
+    {
+      "index": 661,
+      "loan_id": 3140,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.980633
+    },
+    {
+      "index": 662,
+      "loan_id": 4195,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984282
+    },
+    {
+      "index": 663,
+      "loan_id": 3553,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.962219
+    },
+    {
+      "index": 664,
+      "loan_id": 4038,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.992524
+    },
+    {
+      "index": 665,
+      "loan_id": 2504,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.954851
+    },
+    {
+      "index": 666,
+      "loan_id": 1974,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.962545
+    },
+    {
+      "index": 667,
+      "loan_id": 3379,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.982924
+    },
+    {
+      "index": 668,
+      "loan_id": 536,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.962168
+    },
+    {
+      "index": 669,
+      "loan_id": 65,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971648
+    },
+    {
+      "index": 670,
+      "loan_id": 658,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.959986
+    },
+    {
+      "index": 671,
+      "loan_id": 1095,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.958376
+    },
+    {
+      "index": 672,
+      "loan_id": 1212,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.950966
+    },
+    {
+      "index": 673,
+      "loan_id": 543,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.967764
+    },
+    {
+      "index": 674,
+      "loan_id": 3130,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982542
+    },
+    {
+      "index": 675,
+      "loan_id": 4056,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.968046
+    },
+    {
+      "index": 676,
+      "loan_id": 2346,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.968197
+    },
+    {
+      "index": 677,
+      "loan_id": 422,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976067
+    },
+    {
+      "index": 678,
+      "loan_id": 1548,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963614
+    },
+    {
+      "index": 679,
+      "loan_id": 3599,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980074
+    },
+    {
+      "index": 680,
+      "loan_id": 3914,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.943871
+    },
+    {
+      "index": 681,
+      "loan_id": 2284,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988915
+    },
+    {
+      "index": 682,
+      "loan_id": 3390,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.9589
+    },
+    {
+      "index": 683,
+      "loan_id": 4088,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960903
+    },
+    {
+      "index": 684,
+      "loan_id": 437,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.975359
+    },
+    {
+      "index": 685,
+      "loan_id": 3330,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.988918
+    },
+    {
+      "index": 686,
+      "loan_id": 1270,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.969381
+    },
+    {
+      "index": 687,
+      "loan_id": 1323,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95405
+    },
+    {
+      "index": 688,
+      "loan_id": 3692,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.970201
+    },
+    {
+      "index": 689,
+      "loan_id": 1600,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.963903
+    },
+    {
+      "index": 690,
+      "loan_id": 2016,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.972071
+    },
+    {
+      "index": 691,
+      "loan_id": 2748,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.941518
+    },
+    {
+      "index": 692,
+      "loan_id": 640,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.980502
+    },
+    {
+      "index": 693,
+      "loan_id": 2285,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.947634
+    },
+    {
+      "index": 694,
+      "loan_id": 2583,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.943619
+    },
+    {
+      "index": 695,
+      "loan_id": 1808,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988805
+    },
+    {
+      "index": 696,
+      "loan_id": 3673,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.950822
+    },
+    {
+      "index": 697,
+      "loan_id": 1083,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961875
+    },
+    {
+      "index": 698,
+      "loan_id": 4014,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979596
+    },
+    {
+      "index": 699,
+      "loan_id": 4169,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.950356
+    },
+    {
+      "index": 700,
+      "loan_id": 438,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.97056
+    },
+    {
+      "index": 701,
+      "loan_id": 1016,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953604
+    },
+    {
+      "index": 702,
+      "loan_id": 2634,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.95231
+    },
+    {
+      "index": 703,
+      "loan_id": 2492,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969904
+    },
+    {
+      "index": 704,
+      "loan_id": 2562,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.988272
+    },
+    {
+      "index": 705,
+      "loan_id": 2175,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.962003
+    },
+    {
+      "index": 706,
+      "loan_id": 1942,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.988447
+    },
+    {
+      "index": 707,
+      "loan_id": 2751,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.97163
+    },
+    {
+      "index": 708,
+      "loan_id": 2475,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.95924
+    },
+    {
+      "index": 709,
+      "loan_id": 2877,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976177
+    },
+    {
+      "index": 710,
+      "loan_id": 2541,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.989775
+    },
+    {
+      "index": 711,
+      "loan_id": 1568,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.96338
+    },
+    {
+      "index": 712,
+      "loan_id": 1701,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960633
+    },
+    {
+      "index": 713,
+      "loan_id": 3563,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954598
+    },
+    {
+      "index": 714,
+      "loan_id": 1512,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976121
+    },
+    {
+      "index": 715,
+      "loan_id": 1849,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968402
+    },
+    {
+      "index": 716,
+      "loan_id": 2153,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982255
+    },
+    {
+      "index": 717,
+      "loan_id": 1520,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.956661
+    },
+    {
+      "index": 718,
+      "loan_id": 2416,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.989066
+    },
+    {
+      "index": 719,
+      "loan_id": 1518,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.969837
+    },
+    {
+      "index": 720,
+      "loan_id": 2758,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95191
+    },
+    {
+      "index": 721,
+      "loan_id": 2706,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963261
+    },
+    {
+      "index": 722,
+      "loan_id": 3669,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982841
+    },
+    {
+      "index": 723,
+      "loan_id": 2318,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.979995
+    },
+    {
+      "index": 724,
+      "loan_id": 3991,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.981823
+    },
+    {
+      "index": 725,
+      "loan_id": 85,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.972907
+    },
+    {
+      "index": 726,
+      "loan_id": 205,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.943304
+    },
+    {
+      "index": 727,
+      "loan_id": 2451,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.98664
+    },
+    {
+      "index": 728,
+      "loan_id": 1193,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.959477
+    },
+    {
+      "index": 729,
+      "loan_id": 4221,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.948889
+    },
+    {
+      "index": 730,
+      "loan_id": 967,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.966311
+    },
+    {
+      "index": 731,
+      "loan_id": 2745,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.94479
+    },
+    {
+      "index": 732,
+      "loan_id": 2500,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.974596
+    },
+    {
+      "index": 733,
+      "loan_id": 3194,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.948187
+    },
+    {
+      "index": 734,
+      "loan_id": 261,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.983321
+    },
+    {
+      "index": 735,
+      "loan_id": 1419,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.936056
+    },
+    {
+      "index": 736,
+      "loan_id": 3656,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.961961
+    },
+    {
+      "index": 737,
+      "loan_id": 814,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.937628
+    },
+    {
+      "index": 738,
+      "loan_id": 2405,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.984553
+    },
+    {
+      "index": 739,
+      "loan_id": 973,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979379
+    },
+    {
+      "index": 740,
+      "loan_id": 919,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.953704
+    },
+    {
+      "index": 741,
+      "loan_id": 2599,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.987918
+    },
+    {
+      "index": 742,
+      "loan_id": 2267,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.934863
+    },
+    {
+      "index": 743,
+      "loan_id": 3340,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.985968
+    },
+    {
+      "index": 744,
+      "loan_id": 513,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.932679
+    },
+    {
+      "index": 745,
+      "loan_id": 1378,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957779
+    },
+    {
+      "index": 746,
+      "loan_id": 1495,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.97584
+    },
+    {
+      "index": 747,
+      "loan_id": 2741,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.947807
+    },
+    {
+      "index": 748,
+      "loan_id": 2889,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.949251
+    },
+    {
+      "index": 749,
+      "loan_id": 2966,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954493
+    },
+    {
+      "index": 750,
+      "loan_id": 36,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988792
+    },
+    {
+      "index": 751,
+      "loan_id": 342,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.948281
+    },
+    {
+      "index": 752,
+      "loan_id": 4155,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98366
+    },
+    {
+      "index": 753,
+      "loan_id": 3475,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.956271
+    },
+    {
+      "index": 754,
+      "loan_id": 1748,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.976021
+    },
+    {
+      "index": 755,
+      "loan_id": 1586,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.953125
+    },
+    {
+      "index": 756,
+      "loan_id": 4112,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.947433
+    },
+    {
+      "index": 757,
+      "loan_id": 1423,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988788
+    },
+    {
+      "index": 758,
+      "loan_id": 1071,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.977774
+    },
+    {
+      "index": 759,
+      "loan_id": 2381,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.987897
+    },
+    {
+      "index": 760,
+      "loan_id": 3349,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.988419
+    },
+    {
+      "index": 761,
+      "loan_id": 2114,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955107
+    },
+    {
+      "index": 762,
+      "loan_id": 3243,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980862
+    },
+    {
+      "index": 763,
+      "loan_id": 2894,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984738
+    },
+    {
+      "index": 764,
+      "loan_id": 1539,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.968597
+    },
+    {
+      "index": 765,
+      "loan_id": 1049,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.946445
+    },
+    {
+      "index": 766,
+      "loan_id": 464,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.977877
+    },
+    {
+      "index": 767,
+      "loan_id": 3653,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960877
+    },
+    {
+      "index": 768,
+      "loan_id": 1383,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.985316
+    },
+    {
+      "index": 769,
+      "loan_id": 2655,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.958827
+    },
+    {
+      "index": 770,
+      "loan_id": 1452,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95694
+    },
+    {
+      "index": 771,
+      "loan_id": 1278,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.962745
+    },
+    {
+      "index": 772,
+      "loan_id": 873,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949328
+    },
+    {
+      "index": 773,
+      "loan_id": 2525,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.949658
+    },
+    {
+      "index": 774,
+      "loan_id": 410,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982503
+    },
+    {
+      "index": 775,
+      "loan_id": 1829,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954667
+    },
+    {
+      "index": 776,
+      "loan_id": 735,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.960159
+    },
+    {
+      "index": 777,
+      "loan_id": 2651,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.977201
+    },
+    {
+      "index": 778,
+      "loan_id": 4227,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.986476
+    },
+    {
+      "index": 779,
+      "loan_id": 87,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.988218
+    },
+    {
+      "index": 780,
+      "loan_id": 4054,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.958495
+    },
+    {
+      "index": 781,
+      "loan_id": 1506,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.957391
+    },
+    {
+      "index": 782,
+      "loan_id": 3341,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.970568
+    },
+    {
+      "index": 783,
+      "loan_id": 3629,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.951593
+    },
+    {
+      "index": 784,
+      "loan_id": 776,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.943109
+    },
+    {
+      "index": 785,
+      "loan_id": 2,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.973345
+    },
+    {
+      "index": 786,
+      "loan_id": 1435,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.963306
+    },
+    {
+      "index": 787,
+      "loan_id": 3217,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.964252
+    },
+    {
+      "index": 788,
+      "loan_id": 3564,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95747
+    },
+    {
+      "index": 789,
+      "loan_id": 3100,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.953669
+    },
+    {
+      "index": 790,
+      "loan_id": 820,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978562
+    },
+    {
+      "index": 791,
+      "loan_id": 141,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.98159
+    },
+    {
+      "index": 792,
+      "loan_id": 2869,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.942588
+    },
+    {
+      "index": 793,
+      "loan_id": 1590,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.985725
+    },
+    {
+      "index": 794,
+      "loan_id": 2270,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957078
+    },
+    {
+      "index": 795,
+      "loan_id": 2827,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.979313
+    },
+    {
+      "index": 796,
+      "loan_id": 725,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.960343
+    },
+    {
+      "index": 797,
+      "loan_id": 4079,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953864
+    },
+    {
+      "index": 798,
+      "loan_id": 2266,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980293
+    },
+    {
+      "index": 799,
+      "loan_id": 2338,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.960326
+    },
+    {
+      "index": 800,
+      "loan_id": 1426,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.977937
+    },
+    {
+      "index": 801,
+      "loan_id": 177,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949725
+    },
+    {
+      "index": 802,
+      "loan_id": 613,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.962458
+    },
+    {
+      "index": 803,
+      "loan_id": 3619,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.971229
+    },
+    {
+      "index": 804,
+      "loan_id": 1422,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.943129
+    },
+    {
+      "index": 805,
+      "loan_id": 1455,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.982093
+    },
+    {
+      "index": 806,
+      "loan_id": 2485,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.973277
+    },
+    {
+      "index": 807,
+      "loan_id": 2837,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978145
+    },
+    {
+      "index": 808,
+      "loan_id": 1462,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.971406
+    },
+    {
+      "index": 809,
+      "loan_id": 933,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.960193
+    },
+    {
+      "index": 810,
+      "loan_id": 1620,
+      "true_label": "Rejected",
+      "predicted": "Approved",
+      "correct": false,
+      "similarity_top1": 0.956078
+    },
+    {
+      "index": 811,
+      "loan_id": 3480,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.977915
+    },
+    {
+      "index": 812,
+      "loan_id": 2736,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.981779
+    },
+    {
+      "index": 813,
+      "loan_id": 879,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957769
+    },
+    {
+      "index": 814,
+      "loan_id": 1917,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984288
+    },
+    {
+      "index": 815,
+      "loan_id": 3584,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.95934
+    },
+    {
+      "index": 816,
+      "loan_id": 4213,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.978854
+    },
+    {
+      "index": 817,
+      "loan_id": 1742,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976403
+    },
+    {
+      "index": 818,
+      "loan_id": 4235,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.985697
+    },
+    {
+      "index": 819,
+      "loan_id": 1111,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.949363
+    },
+    {
+      "index": 820,
+      "loan_id": 2733,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.966386
+    },
+    {
+      "index": 821,
+      "loan_id": 1855,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.991276
+    },
+    {
+      "index": 822,
+      "loan_id": 2350,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.945272
+    },
+    {
+      "index": 823,
+      "loan_id": 3540,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.955976
+    },
+    {
+      "index": 824,
+      "loan_id": 3045,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.984737
+    },
+    {
+      "index": 825,
+      "loan_id": 3769,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.964936
+    },
+    {
+      "index": 826,
+      "loan_id": 2678,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969757
+    },
+    {
+      "index": 827,
+      "loan_id": 4028,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.943715
+    },
+    {
+      "index": 828,
+      "loan_id": 1310,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.942344
+    },
+    {
+      "index": 829,
+      "loan_id": 172,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.990792
+    },
+    {
+      "index": 830,
+      "loan_id": 214,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.976571
+    },
+    {
+      "index": 831,
+      "loan_id": 2184,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.955969
+    },
+    {
+      "index": 832,
+      "loan_id": 4016,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.989912
+    },
+    {
+      "index": 833,
+      "loan_id": 3667,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.967463
+    },
+    {
+      "index": 834,
+      "loan_id": 520,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.987917
+    },
+    {
+      "index": 835,
+      "loan_id": 4201,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.934842
+    },
+    {
+      "index": 836,
+      "loan_id": 1570,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.954427
+    },
+    {
+      "index": 837,
+      "loan_id": 3837,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.957167
+    },
+    {
+      "index": 838,
+      "loan_id": 2672,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.969422
+    },
+    {
+      "index": 839,
+      "loan_id": 1004,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.973156
+    },
+    {
+      "index": 840,
+      "loan_id": 88,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.956889
+    },
+    {
+      "index": 841,
+      "loan_id": 4167,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.985344
+    },
+    {
+      "index": 842,
+      "loan_id": 40,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.980259
+    },
+    {
+      "index": 843,
+      "loan_id": 3790,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.952001
+    },
+    {
+      "index": 844,
+      "loan_id": 2452,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.982673
+    },
+    {
+      "index": 845,
+      "loan_id": 3072,
+      "true_label": "Approved",
+      "predicted": "Rejected",
+      "correct": false,
+      "similarity_top1": 0.951394
+    },
+    {
+      "index": 846,
+      "loan_id": 2728,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.950652
+    },
+    {
+      "index": 847,
+      "loan_id": 3730,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.96182
+    },
+    {
+      "index": 848,
+      "loan_id": 2432,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.953488
+    },
+    {
+      "index": 849,
+      "loan_id": 1041,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.95099
+    },
+    {
+      "index": 850,
+      "loan_id": 3070,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.945332
+    },
+    {
+      "index": 851,
+      "loan_id": 3921,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.951047
+    },
+    {
+      "index": 852,
+      "loan_id": 120,
+      "true_label": "Approved",
+      "predicted": "Approved",
+      "correct": true,
+      "similarity_top1": 0.951373
+    },
+    {
+      "index": 853,
+      "loan_id": 1866,
+      "true_label": "Rejected",
+      "predicted": "Rejected",
+      "correct": true,
+      "similarity_top1": 0.974845
+    }
+  ]
+}

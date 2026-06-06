@@ -9,7 +9,6 @@ from backend.modules.database import get_all_cases
  
 def retrieve(
     new_case_raw: dict,
-    k: float = 1.0, #ini harus masukin nilai k nya
     top_n: int = 5,
     threshold: float = 0.0,
 ) -> list[dict]:
@@ -24,11 +23,6 @@ def retrieve(
         raise ValueError(
             "threshold harus berada pada rentang [0,1]"
         )
-
-    if k < 0:
-        raise ValueError(
-            "k tidak boleh negatif"
-        )
     
     # 1. Load parameter normalisasi
     norm_params = load_normalization_params()
@@ -37,7 +31,7 @@ def retrieve(
     processed_new = preprocess_single(new_case_raw, norm_params)
  
     # 3. Fuzzifikasi kasus baru
-    fuzzy_new = fuzzify_case(processed_new, norm_params, k)
+    fuzzy_new = fuzzify_case(processed_new, norm_params)
  
     # 4. Ambil semua kasus dari basis
     all_cases = get_all_cases()
@@ -62,7 +56,7 @@ def retrieve(
             },
             norm_params,
         )
-        fuzzy_old = fuzzify_case(processed_old, norm_params, k)
+        fuzzy_old = fuzzify_case(processed_old, norm_params)
  
         # Hitung similarity
         sim_result = case_similarity(

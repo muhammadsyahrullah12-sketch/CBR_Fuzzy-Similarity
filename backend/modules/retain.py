@@ -54,7 +54,7 @@ def retain(queue_id: int, expert_decision: str) -> dict:
     new_id = add_case(input_case, source="retained")
  
     # 4. Tandai antrian sebagai selesai
-    mark_revised(queue_id, expert_decision)
+    mark_revised(queue_id, expert_decision, loan_id=new_id)
  
     # 5. Perbarui norm_params dengan seluruh basis kasus terbaru
     _update_normalization_params()

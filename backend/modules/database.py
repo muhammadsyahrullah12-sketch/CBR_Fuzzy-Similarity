@@ -12,7 +12,7 @@ DB_PATH   = Path(__file__).parent.parent / "data" / "case_base.db"
 CSV_PATH  = Path(__file__).parent.parent / "data" / "loan_approval_dataset.csv"
  
  
-# ── Koneksi ───────────────────────────────────────────────────────────────────
+# Koneksi
  
 def get_connection() -> sqlite3.Connection:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -76,8 +76,11 @@ def init_db(force: bool = False) -> None:
             recommendation TEXT NOT NULL,     -- 'Approved' atau 'Rejected'
             majority_vote TEXT NOT NULL,      -- majority dari top-5
             similarity_score REAL NOT NULL,   -- similarity kasus #1
+            confidence REAL DEFAULT NULL,           -- confidence rekomendasi
+            note TEXT DEFAULT NULL,                 -- catatan untuk pakar
             status TEXT DEFAULT 'pending',    -- 'pending' | 'revised'
             expert_decision TEXT DEFAULT NULL,
+            loan_id INTEGER DEFAULT NULL,  -- loan_id baru setelah retain
             created_at TEXT DEFAULT (datetime('now','localtime')),
             revised_at TEXT DEFAULT NULL
         )
@@ -108,6 +111,62 @@ def init_db(force: bool = False) -> None:
  
 # ── Akses kasus ───────────────────────────────────────────────────────────────
  
+def get_cases_paginated(
+    page  : int = 1,
+    limit : int = 50,
+    source: str = None,
+) -> dict:
+    """
+    Ambil basis kasus dengan pagination.
+ 
+    Parameter:
+        page   : halaman ke berapa (mulai dari 1)
+        limit  : jumlah baris per halaman
+        source : filter 'initial' atau 'retained' (None = semua)
+ 
+    Returns:
+        {
+          "total"      : int,   # total semua kasus (sesuai filter)
+          "page"       : int,
+          "limit"      : int,
+          "total_pages": int,
+          "items"      : [ {dict kasus} ]
+        }
+    """
+    offset = (page - 1) * limit
+ 
+    conn = get_connection()
+    cur  = conn.cursor()
+ 
+    if source:
+        cur.execute(
+            "SELECT COUNT(*) FROM cases WHERE source = ?", (source,)
+        )
+        total = cur.fetchone()[0]
+        cur.execute(
+            "SELECT * FROM cases WHERE source = ? ORDER BY loan_id ASC LIMIT ? OFFSET ?",
+            (source, limit, offset)
+        )
+    else:
+        cur.execute("SELECT COUNT(*) FROM cases")
+        total = cur.fetchone()[0]
+        cur.execute(
+            "SELECT * FROM cases ORDER BY loan_id ASC LIMIT ? OFFSET ?",
+            (limit, offset)
+        )
+ 
+    rows = [dict(r) for r in cur.fetchall()]
+    conn.close()
+ 
+    import math
+    return {
+        "total"      : total,
+        "page"       : page,
+        "limit"      : limit,
+        "total_pages": math.ceil(total / limit) if limit > 0 else 1,
+        "items"      : rows,
+    }
+
 def get_all_cases() -> list[dict]:
     """Ambil semua kasus dari basis sebagai list of dict (nilai asli)."""
     conn = get_connection()
@@ -197,20 +256,24 @@ def add_to_revise_queue(
     recommendation: str,
     majority_vote: str,
     similarity_score: float,
+    confidence: float = None,
+    note: str = None,
 ) -> int:
     """Tambah hasil retrieve+reuse ke antrian revisi pakar."""
     conn = get_connection()
     cur = conn.cursor()
     cur.execute("""
         INSERT INTO revise_queue
-          (input_case, top_cases, recommendation, majority_vote, similarity_score)
-        VALUES (?, ?, ?, ?, ?)
+          (input_case, top_cases, recommendation, majority_vote, similarity_score, confidence, note)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
     """, (
         json.dumps(input_case),
         json.dumps(top_cases),
         recommendation,
         majority_vote,
         similarity_score,
+        confidence,
+        note
     ))
     new_id = cur.lastrowid
     conn.commit()
@@ -236,7 +299,7 @@ def get_pending_revisions() -> list[dict]:
     return rows
  
  
-def mark_revised(queue_id: int, expert_decision: str) -> None:
+def mark_revised(queue_id: int, expert_decision: str, loan_id: int = None) -> None:
     """Tandai kasus sebagai sudah direvisi."""
     conn = get_connection()
     cur = conn.cursor()
@@ -244,12 +307,73 @@ def mark_revised(queue_id: int, expert_decision: str) -> None:
         UPDATE revise_queue
         SET status = 'revised',
             expert_decision = ?,
+            loan_id = ?,
             revised_at = datetime('now','localtime')
         WHERE id = ?
-    """, (expert_decision, queue_id))
+    """, (expert_decision, loan_id, queue_id))  # ← urutan sudah benar
     conn.commit()
     conn.close()
- 
+
+def get_queue_by_id(queue_id: int) -> dict | None:
+    """Ambil satu item dari revise_queue berdasarkan ID."""
+    conn = get_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM revise_queue WHERE id = ?", (queue_id,))
+    row = cur.fetchone()
+    conn.close()
+    if not row:
+        return None
+    r = dict(row)
+    r["input_case"] = json.loads(r["input_case"])
+    r["top_cases"]  = json.loads(r["top_cases"])
+    return r
+
+def update_queue(
+        queue_id: int,
+        input_case: dict,
+        top_cases: list,
+        recommendation: str,
+        majority_vote: str,
+        similarity_score: float,
+        confidence: float = None,
+        note: str = None
+) -> bool:
+    """Update data di revise_queue"""
+    conn = get_connection()
+    cur = conn.cursor()
+    # pastikan masih pending
+    cur.execute(
+        "SELECT * FROM revise_queue WHERE id = ?", 
+        (queue_id,)
+    )
+    row = cur.fetchone()
+    if not row or dict(row)["status"] != "pending":
+        conn.close()
+        return False
+    
+    cur.execute("""
+        UPDATE revise_queue
+        SET input_case = ?,
+            top_cases = ?,
+            recommendation = ?,
+            majority_vote = ?,
+            similarity_score = ?,
+            confidence = ?,
+            note = ?
+        WHERE id = ?
+    """, (
+        json.dumps(input_case),
+        json.dumps(top_cases),
+        recommendation,
+        majority_vote,
+        similarity_score,
+        confidence,
+        note,
+        queue_id,
+    ))
+    conn.commit()
+    conn.close()
+    return True
  
 def get_revision_history() -> list[dict]:
     """Ambil riwayat revisi yang sudah selesai."""

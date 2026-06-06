@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Evaluasi Sistem</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+
+      .cards {
+        display: flex;
+        gap: 15px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        min-width: 180px;
+        text-align: center;
+      }
+
+      .card h3 {
+        margin: 0;
+      }
+
+      .value {
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #aaa;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Evaluasi Sistem CBR Loan Approval</h1>
+
+    <div id="info"></div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Accuracy</h3>
+        <p>Persentase prediksi yang benar dari seluruh data uji.</p>
+        <div id="accuracy" class="value">-</div>
+      </div>
+
+      <div class="card">
+        <h3>Precision</h3>
+        <p>
+          Persentase ketepatan sistem saat memberikan prediksi positif
+          (Approved).
+        </p>
+        <div id="precision" class="value">-</div>
+      </div>
+
+      <div class="card">
+        <h3>Recall</h3>
+        <p>
+          Persentase kemampuan sistem menemukan seluruh pinjaman yang layak
+          disetujui.
+        </p>
+        <div id="recall" class="value">-</div>
+      </div>
+
+      <div class="card">
+        <h3>F1-Score</h3>
+        <p>Keseimbangan antara Precision dan Recall.</p>
+        <div id="f1score" class="value">-</div>
+      </div>
+    </div>
+
+    <h2>Confusion Matrix</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Kondisi Sebenarnya</th>
+          <th>Prediksi Approved</th>
+          <th>Prediksi Rejected</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Approved</th>
+          <td id="tp">-</td>
+          <td id="fn">-</td>
+        </tr>
+
+        <tr>
+          <th>Rejected</th>
+          <td id="fp">-</td>
+          <td id="tn">-</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Note:</p>
+    <p>TP (True Positive) : Prediksi benar (Aproved → Aproved)</p>
+    <p>TN (True Negative) : Prediksi benar (Rejected → Rejected)</p>
+    <p>FP (False Positive) : Prediksi salah (Rejected → Approved)</p>
+    <p>FN (False Negative) : Prediksi salah (Approved → Rejected)</p>
+
+    <script src="evaluation.js"></script>
+  </body>
+</html>
